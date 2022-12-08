@@ -1,0 +1,108 @@
+.menu-toggle {
+  min-height: 40px;
+  min-width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  // margin: 0;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+}
+
+@media (min-width: 768px) {
+  .menu-toggle {
+    display: none;
+  }
+}
+
+.menu-toggle:hover,
+.menu-toggle:focus {
+  fill: var(--btn-color);
+}
+
+.menu-container {
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  // padding: 32px;
+  background-color: #fff;
+  z-index: 999;
+
+  transform: translateX(100%);
+  transition: transform 250ms ease-in-out;
+}
+
+.menu-container.is-open {
+  transform: translateX(0);
+}
+
+.menu-container .menu-toggle {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  color: #fff;
+}
+
+.mobile-menu {
+  padding: 48px 40px;
+  margin:0;
+  display: flex;
+  flex-direction: column;
+}
+  
+.menu-title{
+  margin-bottom: auto;
+
+}
+
+.menu-item{
+  margin-bottom: 32px;
+  font-weight: 500;
+font-size: 40px;
+line-height: 47px;
+color: var(--name-color);
+}
+
+.menu-nav{
+margin-bottom: 64px;
+}
+
+
+.menu-mail-item{
+  margin-bottom: 32px;
+  font-weight: 500;
+font-size: 34px;
+line-height: 40px;
+color: var(--btn-color);
+}
+
+.menu-phone-link{
+font-weight: 500;
+font-size: 24px;
+letter-spacing: 0.02em;
+color: var(--text-color);
+
+}
+
+.menu-social{
+  display: flex;
+  color: var(--btn-color);
+  gap: 20px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.02em
+
+}
+
+.menu-current{
+  color: var(--btn-color);
+}

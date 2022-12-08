@@ -1,0 +1,14 @@
+:root {
+    --title-color: #FFFFFF;
+    --text-color:#757575;
+    --name-color: #212121;
+    --btn-color: #2196F3;
+    --section-color: #2F303A;
+    --logo-studio-color: #000000;
+    --background-btn-color: #F5F4FA;
+
+    --background-animation:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    --color-animation:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    --icon-animation:fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    --border-animation:border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}      
