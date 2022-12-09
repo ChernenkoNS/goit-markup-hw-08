@@ -65,7 +65,7 @@
     @media screen and (max-width: 767px) {
         margin-right: 0;
         margin-bottom: 30px;
-        width:450px;
+        max-width:450px;
 
         &:last-child {
             margin-bottom: 0px;
