@@ -61,9 +61,9 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .container {
-    width: 480px;
+    max-width: 480px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -281,10 +281,9 @@ body {
   border-radius: 4px;
   background-color: var(--title-color);
 }
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 1199px) {
   .model {
-    width: 450px;
-    height: 609px;
+    max-width: 450px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -542,6 +541,7 @@ body {
   left: 0;
   width: 100vw;
   height: 100vh;
+  padding: 32px;
   background-color: #fff;
   z-index: 999;
   -webkit-transform: translateX(100%);
@@ -881,7 +881,7 @@ li > .current {
   text-align: center;
   color: var(--title-color);
 }
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 1199px) {
   .order__title {
     font-size: 26px;
     line-height: 1.61;
@@ -894,7 +894,7 @@ li > .current {
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 1199px) {
   .feature {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -917,7 +917,7 @@ li > .current {
   text-align: left;
   color: var(--name-color);
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .feature__name {
     display: block;
     text-align: center;
@@ -926,7 +926,7 @@ li > .current {
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .feature__title {
     display: block;
   }
@@ -954,7 +954,7 @@ li > .current {
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .feature__item {
     margin-bottom: 30px;
   }
@@ -1008,10 +1008,9 @@ li > .current {
   border-radius: 4px;
   margin-bottom: 30px;
 }
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .feature__bloc {
-    width: 450px;
-    height: 120px;
+    max-width: 450px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -1022,7 +1021,6 @@ li > .current {
 @media screen and (min-width: 1200px) {
   .feature__bloc {
     width: 270px;
-    height: 140px;
   }
 }
 
@@ -1030,7 +1028,7 @@ li > .current {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-@media screen and (max-width: 1199.98px) {
+@media screen and (max-width: 1199px) {
   .offer {
     display: none;
   }
@@ -1094,7 +1092,7 @@ li > .current {
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 1199px) {
   .team {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -1111,7 +1109,7 @@ li > .current {
   background-color: var(--background-btn-color);
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .team__title {
     display: block;
   }
@@ -1131,7 +1129,7 @@ li > .current {
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
   border-radius: 0px 0px 4px 4px;
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .team__item {
     margin-right: 0;
     margin-bottom: 30px;
@@ -1257,7 +1255,7 @@ li > .current {
   transition: var(--icon-animation);
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 1199px) {
   .client {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -1273,13 +1271,16 @@ li > .current {
 .client__title {
   gap: 30px;
 }
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .client__title {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 @media screen and (min-width: 768px) {
@@ -1325,7 +1326,7 @@ li > .current {
   border-color: var(--btn-color);
   color: var(--btn-color);
 }
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .client__link {
     width: 210px;
     height: 92px;
@@ -1674,7 +1675,7 @@ li > .social-link-footer {
 }
 @media screen and (max-width: 1199px) {
   .user-mail {
-    width: 450px;
+    max-width: 450px;
   }
 }
 @media screen and (min-width: 1200px) {
