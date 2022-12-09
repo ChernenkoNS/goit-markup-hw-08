@@ -65,7 +65,7 @@
   margin-bottom: auto;
 
   @media screen and (max-width:480px) {
-    margin-bottom: 50px;
+    margin-bottom: 70px;
   }
 }
 
@@ -88,6 +88,11 @@ margin-bottom: 64px;
 font-size: 34px;
 line-height: 40px;
 color: var(--btn-color);
+
+@media screen and (max-width:480px) {
+
+  font-size: 25px;  
+  }
 }
 
 .menu-phone-link{
@@ -100,12 +105,15 @@ color: var(--text-color);
 
 .menu-social{
   display: flex;
+  flex-wrap: wrap;
   color: var(--btn-color);
   gap: 20px;
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
   letter-spacing: 0.02em
+
+
 
 }
 
