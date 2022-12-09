@@ -541,7 +541,6 @@ body {
   left: 0;
   width: 100vw;
   height: 100vh;
-  padding: 32px;
   background-color: #fff;
   z-index: 999;
   -webkit-transform: translateX(100%);
@@ -575,9 +574,19 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
 }
+@media screen and (max0width: 480px) {
+  .mobile-menu {
+    padding: 48px 20px;
+  }
+}
 
 .menu-title {
   margin-bottom: auto;
+}
+@media screen and (max0width: 480px) {
+  .menu-title {
+    margin-bottom: 50px;
+  }
 }
 
 .menu-item {
